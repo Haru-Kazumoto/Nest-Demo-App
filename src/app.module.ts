@@ -7,7 +7,7 @@ import { UserSchema } from './model/user.models';
 @Module({
   imports: [
     MongooseModule.forRoot(
-      'mongodb+srv://nest-db:dINSWjcVzIOWQwqE@cluster0.y15gb9w.mongodb.net/?retryWrites=true&w=majority'
+      'mongodb+srv://nest-db:12345@cluster0.y15gb9w.mongodb.net/?retryWrites=true&w=majority'
     ),
     MongooseModule.forFeature([{name: 'user', schema:UserSchema}])
   ],
